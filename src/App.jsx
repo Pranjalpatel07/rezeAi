@@ -1,4 +1,4 @@
-// Optimize version for mobile screen
+// Optimize version for mobile screen 2
 
 import { useState, useRef, useEffect } from "react";
 import { GoogleGenAI } from "@google/genai";
