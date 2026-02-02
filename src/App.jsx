@@ -52,11 +52,11 @@ export default function App() {
   };
 
   return (
-    <div className="h-dvh flex items-center justify-center bg-bg text-text overflow-hidden">
+    <div className="h-dvh flex items-center justify-center bg-gray-700 text-text overflow-hidden">
       <div className="w-full max-w-md h-full bg-panel rounded-2xl flex flex-col overflow-hidden">
 
         {/* Header */}
-        <div className="flex items-center gap-3 px-5 py-4 bg-indigo-950 bg-accent/10 shrink-0">
+        <div className="sticky top-0 z-20 flex items-center gap-3 px-5 py-4 bg-indigo-950 bg-accent/10 shrink-0">
           <div className="w-10 h-10 bg-violet-400 rounded-full flex items-center justify-center font-bold text-black">
             R
           </div>
@@ -67,7 +67,7 @@ export default function App() {
         </div>
 
         {/* Messages */}
-        <div className="flex-1 overflow-y-auto p-5 space-y-3 bg-[#161636]">
+        <div className="flex-1 overflow-y-auto p-5 pt-6 space-y-3 bg-[#161636]">
           {messages.map((m, i) => (
             <div
               key={i}
